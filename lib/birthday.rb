@@ -16,9 +16,9 @@ def age_appropriate_birthday(birthday_kids)
   
   passengers.each do |name, age|
     if age > 12
-     birthday_message = "" 
+     birthday_message = "Happy Birthday #{name}! You are now #{age} years old!" 
   end 
 end 
-birthday_message
+puts birthday_message
 
 end 
