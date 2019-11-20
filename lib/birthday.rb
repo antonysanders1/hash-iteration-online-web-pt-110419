@@ -12,6 +12,13 @@ def happy_birthday(birthday_kids)
 end
 
 def age_appropriate_birthday(birthday_kids)
+  burthday_message = ""
   
+  passengers.each do |name, age|
+    if age > 12
+     birthday_message = "" 
+  end 
+end 
+birthday_message
 
 end 
